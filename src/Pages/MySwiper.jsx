@@ -16,7 +16,9 @@ import img2 from "../images/اعتمادات-2.png"  ;
 import img3 from "../images/اعتمادات-3.png"  ;  
 
 
+
 const MySwiper = () => {
+    const x = 3;
     return (
         <div className='container content'>
         <h2 className='title my-3'>الاعتمادات والتوثيق</h2>
@@ -24,12 +26,15 @@ const MySwiper = () => {
         // install Swiper modules
         modules={[Navigation, Pagination, A11y]}
         spaceBetween={50}
-        slidesPerView={1}
+        slidesPerView={x}
         navigation
         onSwiper={(swiper) => console.log(swiper)}
         onSlideChange={() => console.log('slide change')}
         className='my-5 container text-center'
         >
+        <SwiperSlide><img src={img1} width={200} alt=""/></SwiperSlide>
+        <SwiperSlide><img src={img2} width={100} alt=""/></SwiperSlide>
+        <SwiperSlide><img src={img3} width={100} alt=""/></SwiperSlide>
         <SwiperSlide><img src={img1} width={200} alt=""/></SwiperSlide>
         <SwiperSlide><img src={img2} width={100} alt=""/></SwiperSlide>
         <SwiperSlide><img src={img3} width={100} alt=""/></SwiperSlide>

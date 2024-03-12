@@ -15,7 +15,7 @@ const Navbar3 = () => {
             <Link className="styledLink">ابدا الان</Link>
             <img src={right} alt="" width={50} style={{ marginRight: "-36px" }}/>
             <div className="d-flex align-items-center justify-content-center gap-2">
-                <NavLink to="/login" className="mx-2">الرئيسية</NavLink>
+                <NavLink to="/" className="mx-2">الرئيسية</NavLink>
                 <NavLink to="/about">مساعده</NavLink>
             </div>
             <img src={left} alt="" width={50} style={{ marginLeft: "-28px" }} />

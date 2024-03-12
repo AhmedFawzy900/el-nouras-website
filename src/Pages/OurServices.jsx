@@ -95,7 +95,7 @@ export default function OurServices() {
                 <div className="card-content">
                     <h1 className="title">{card.h1}</h1>
                     <p>مهمتنا هي توفير حلول تكنولوجيه متقدمه ومبتكره تلبي احتياجات عملائنا وتسهم في تحقيق اهدافهم</p>
-                    <Link to={"#"} className="styledLink">عرض الخدمه</Link>
+                    <Link to={"/serviceDetail"} className="styledLink">عرض الخدمه</Link>
                 </div>
             </div>
           ))}
