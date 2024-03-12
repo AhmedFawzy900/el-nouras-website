@@ -81,7 +81,7 @@ export default function OurServices() {
         <Link to="#" className="contact">
           تواصل معنا
         </Link>
-        <Link to="#" className="our-work">
+        <Link target="_blank" to="https://drive.google.com/file/d/1yRmwQ5N3wPS2ZvNT5NyGSGg25NRQSOrb/view?usp=sharing" className="our-work">
           سابقة اعمالنا
         </Link>
       </div>
